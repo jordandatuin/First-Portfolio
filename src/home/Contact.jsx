@@ -7,9 +7,15 @@ function Contact() {
             <div className="flex justify-center items-center flex-col">
                 <p className="text-stone-300 text-lg mb-[23px]">CONTACT ME</p>
                 <p className="text-white text-[35px] lg:text-[40px] font-bold mb-[45px] text-center">Got a project? Let's talk!</p>
-                <p className="text-stone-300 font-semibold text-2xl lg:text-4xl">jordan.datuin22@gmail.com</p>
+                <p className="text-stone-300 font-semibold text-xl lg:text-4xl">jordan.datuin22@gmail.com</p>
             </div>
             <div className="flex flex-col lg:flex-row justify-between w-full mt-[132px] ">
+            <p className="text-white font-bold hidden md:block">Jordan Datuin</p>
+                <div className="flex justify-between gap-[19px]">
+                    <a href='#home' className="text-white font-semibold">Home</a>
+                    <a href='#services' className="text-white font-semibold">Services</a>
+                    <a href='#portfolio' className="text-white font-semibold">Portfolio</a>
+                </div>
             </div>
         </div>
     </section>

@@ -72,12 +72,11 @@ function Services() {
                                         stroke="#FF17E8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <p className="text-white font-bold">Technical <br />
-                                Consultation</p>
+                            <p className="text-white font-bold">API<br />Integration</p>
                         </div>
                         <p className="text-[#C1C1C1] w-full">
-                            Need technical advice? I offer consultation to guide your decisions, considering your specific
-                            objectives and financial resources.
+                            I can incorporate third-party APIs into your systems, enabling the use of external services. Be it
+                            payment gateways, social media, or cloud services.
                         </p>
                     </div>
                 </div>

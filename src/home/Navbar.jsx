@@ -1,5 +1,7 @@
 import React from 'react';
 
+import linkedInLogo from '../assets/linkedin.png'
+
 function Navbar() 
 {
 
@@ -9,11 +11,6 @@ function Navbar()
                 <div className="lg:text-[28px] text-2xl font-black text-neutral-300">{'<Jordan />'}</div>
                 <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
                     <div className="flex justify-between items-center gap-[13px] z-40">
-                        <a href="https://www.facebook.com/melchi.urbina" target="_blank">
-                            <svg width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 0.0458984C4.02955 0.0458984 0 4.07544 0 9.0459C0 13.5582 3.32386 17.2838 7.65491 17.9346V11.4313H5.42823V9.06553H7.65491V7.49135C7.65491 4.88504 8.92473 3.74081 11.0909 3.74081C12.1283 3.74081 12.6769 3.81772 12.9367 3.8529V5.91799H11.459C10.5394 5.91799 10.2183 6.78976 10.2183 7.7724V9.06553H12.9134L12.5476 11.4313H10.2183V17.9539C14.6111 17.3578 18 13.6019 18 9.0459C18 4.07544 13.9705 0.0458984 9 0.0458984Z" fill="white" />
-                            </svg>
-                        </a>
 
                         <a href="https://github.com/jordandatuin" target="_blank">
                             <svg width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,16 +18,8 @@ function Navbar()
                             </svg>
                         </a>
 
-                        <a href="https://www.instagram.com/jordan_datuin/" target="_blank">
-                            <svg width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.31818 0C2.385 0 0 2.385 0 5.31818V12.6818C0 15.615 2.385 18 5.31818 18H12.6818C15.615 18 18 15.615 18 12.6818V5.31818C18 2.385 15.615 0 12.6818 0H5.31818ZM13.9091 3.27273C14.3591 3.27273 14.7273 3.64091 14.7273 4.09091C14.7273 4.54091 14.3591 4.90909 13.9091 4.90909C13.4591 4.90909 13.0909 4.54091 13.0909 4.09091C13.0909 3.64091 13.4591 3.27273 13.9091 3.27273ZM9 4.5C11.4832 4.5 13.5 6.51682 13.5 9C13.5 11.4832 11.4832 13.5 9 13.5C6.51682 13.5 4.5 11.4832 4.5 9C4.5 6.51682 6.51682 4.5 9 4.5ZM9 5.31818C6.97091 5.31818 5.31818 6.97091 5.31818 9C5.31818 11.0291 6.97091 12.6818 9 12.6818C11.0291 12.6818 12.6818 11.0291 12.6818 9C12.6818 6.97091 11.0291 5.31818 9 5.31818Z" fill="white" />
-                            </svg>
-                        </a>
-
-                        <a href="https://twitter.com/Jordan_Datuin" target="_blank">
-                            <svg width="24" height="24" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18 2.41764C17.3365 2.71224 16.6252 2.91004 15.8775 2.99983C16.6406 2.5425 17.227 1.81863 17.502 0.957274C16.7893 1.37953 15.9967 1.68676 15.1564 1.85229C14.483 1.13403 13.5235 0.686523 12.4615 0.686523C10.4218 0.686523 8.76783 2.33908 8.76783 4.37883C8.76783 4.66782 8.8015 4.94979 8.86462 5.22054C5.79518 5.06623 3.07505 3.59604 1.25275 1.3613C0.9343 1.90841 0.753332 2.5425 0.753332 3.21867C0.753332 4.49948 1.40426 5.63018 2.39607 6.29372C1.79004 6.27408 1.22048 6.10715 0.722469 5.83078C0.722469 5.84621 0.722469 5.86165 0.722469 5.87708C0.722469 7.66712 1.99626 9.15835 3.68389 9.49924C3.37526 9.58341 3.0484 9.6283 2.71171 9.6283C2.47323 9.6283 2.24176 9.60586 2.0159 9.56097C2.48726 11.0269 3.85083 12.0973 5.46551 12.1268C4.20295 13.1172 2.61071 13.7064 0.879588 13.7064C0.580781 13.7064 0.287585 13.6896 0 13.6545C1.63292 14.7038 3.57447 15.3141 5.66051 15.3141C12.4531 15.3141 16.1679 9.68722 16.1679 4.8081C16.1679 4.64818 16.1637 4.48685 16.1581 4.32973C16.8791 3.80927 17.5048 3.15835 18 2.41764Z" fill="white" />
-                            </svg>
+                        <a href="https://www.linkedin.com/in/jordan-datuin-a2aba4285/" target="_blank">
+                            <img className='rounded-full' width={26} height={26} src={linkedInLogo}/>
                         </a>
                     </div>
                     <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
@@ -53,9 +42,6 @@ function Navbar()
                         </li>
                         <li className="text-center">
                             <a href="#contact" className="block text-center text-white rounded md:bg-transparent">Contact</a>
-                        </li>
-                        <li className="text-center">
-                            <a href="https://drive.google.com/file/d/1deVaY3OVRDBuh0pNDKsBQFWbdeKuD-MB/view?usp=sharing" type="link" target="_blank" className="block text-center text-white rounded md:bg-transparent">Resume</a>
                         </li>
                     </ul>
                 </div>

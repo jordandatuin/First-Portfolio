@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroImage from '../assets/hero-image.png'
+import download from '../assets/openlink.png'
 
 function Hero() {
   return (
@@ -29,12 +30,18 @@ function Hero() {
                         to life. Let's create something amazing together!
                     </p>
                 </div>
-                <a href="#contact" className="flex text-lg text-white font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50  bg-blue-500 w-[179px] rounded-lg items-center gap-3 justify-center py-2 ">
-                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.4323 11.4109L12.17 11.1526C11.6267 11.0903 11.0923 11.2773 10.7093 11.6603L9.07041 13.2992C6.54978 12.0166 4.4834 9.95909 3.20082 7.42954L4.84858 5.78177C5.23157 5.39878 5.41862 4.86436 5.35627 4.32105L5.09797 2.07652C4.99109 1.17692 4.23401 0.5 3.32551 0.5H1.78464C0.778165 0.5 -0.0590758 1.33725 0.0032719 2.34372C0.475333 9.95018 6.55869 16.0247 14.1562 16.4967C15.1627 16.5591 15.9999 15.7218 15.9999 14.7154V13.1745C16.0088 12.2749 15.3319 11.5178 14.4323 11.4109Z" fill="white" />
-                    </svg>
-                    Let's talk
-                </a>
+                <div className='flex gap-3'>
+                    <a href="#contact" className="flex text-lg text-white font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50  bg-blue-500 w-[179px] rounded-lg items-center gap-3 justify-center py-2 ">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4323 11.4109L12.17 11.1526C11.6267 11.0903 11.0923 11.2773 10.7093 11.6603L9.07041 13.2992C6.54978 12.0166 4.4834 9.95909 3.20082 7.42954L4.84858 5.78177C5.23157 5.39878 5.41862 4.86436 5.35627 4.32105L5.09797 2.07652C4.99109 1.17692 4.23401 0.5 3.32551 0.5H1.78464C0.778165 0.5 -0.0590758 1.33725 0.0032719 2.34372C0.475333 9.95018 6.55869 16.0247 14.1562 16.4967C15.1627 16.5591 15.9999 15.7218 15.9999 14.7154V13.1745C16.0088 12.2749 15.3319 11.5178 14.4323 11.4109Z" fill="white" />
+                        </svg>
+                        Let's talk
+                    </a>
+                    <a href="https://drive.google.com/file/d/1sgLfKgq3UjP3UZNyDBHVvWb6FUB911y0/view?usp=sharing" target="_blank" className="flex text-blue-500 font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 w-[179px] border-solid border-2 border-blue-500 rounded-lg items-center gap-3 justify-center py-2 hover:text-white">
+                        <img width={24} src={download} alt='download'/>
+                        Resume
+                    </a>
+                </div>
             </div>
             <div data-aos="fade-up-left" data-aos-duration="1000" className="hidden lg:block w-full lg:w-[397px] relative">
                 <img className="rounded-lg ml-auto w-full lg:h-[483px] object-cover" src={HeroImage} alt=""/>
