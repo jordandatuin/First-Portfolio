@@ -25,7 +25,7 @@ function Portfolio() {
                     </a>
                 </div>
                 <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
-                    <a href="https://project-3-api-driven-website.vercel.app/" target="_blank" className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://capstone-project-health-records-repository.vercel.app/" target="_blank" className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
                         <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" 
                         src={Portfolio3} alt="" />
                     </a>

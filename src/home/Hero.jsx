@@ -5,9 +5,6 @@ import download from '../assets/openlink.png'
 function Hero() {
   return (
     <>
-    <div className="w-[292px] absolute -z-10 h-[292px] bg-blue-500 bg-opacity-30 rounded-full blur-[123px] top-[150px]"></div>
-    <div className="w-[366px] hidden h-[366px] -z-10  bg-blue-500 bg-opacity-30 rounded-full blur-[123px] top-[140px] lg:absolute left-[640px]"></div>
-    <div className="w-[366px] hidden h-[366px] lg:block -z-10  bg-fuchsia-500 bg-opacity-20 rounded-full blur-[105px] lg:absolute top-[407px] -right-[90px]"></div>
     <section id="home" className="scroll-pt-32 max-w-[1160px] w-full mx-auto mt-[45px] lg:mt-[70px]  px-[24px] xl:px-0">
         <div className="flex lg:flex-row flex-col-reverse items-center justify-between gap-9">
             <div data-aos="fade-down-left" data-aos-duration="1000" className="max-w-[694px] w-full flex flex-col gap-4 lg:gap-[32px] ">
@@ -37,7 +34,7 @@ function Hero() {
                         </svg>
                         Let's talk
                     </a>
-                    <a href="https://drive.google.com/file/d/11c9ZZsIFAOvNGQYLitByA8_M0qW_ExwL/view?usp=sharing" target="_blank" className="flex text-blue-500 font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 w-[179px] border-solid border-2 border-blue-500 rounded-lg items-center gap-3 justify-center py-2 hover:text-white">
+                    <a href="https://drive.google.com/file/d/10TxIVf3rJCpFWiQxnKhL9K0naG8Mmayq/view?usp=sharing" target="_blank" className="flex text-blue-500 font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 w-[179px] border-solid border-2 border-blue-500 rounded-lg items-center gap-3 justify-center py-2 hover:text-white">
                         <img width={24} src={download} alt='download'/>
                         Resume
                     </a>
