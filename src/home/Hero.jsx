@@ -34,7 +34,7 @@ function Hero() {
                         </svg>
                         Let's talk
                     </a>
-                    <a href="https://drive.google.com/file/d/10TxIVf3rJCpFWiQxnKhL9K0naG8Mmayq/view?usp=sharing" target="_blank" className="flex text-blue-500 font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 w-[179px] border-solid border-2 border-blue-500 rounded-lg items-center gap-3 justify-center py-2 hover:text-white">
+                    <a href="https://drive.google.com/file/d/1d_liTn8gjj7i5zkVkWkLukvAbJv5spX1/view?usp=sharing" target="_blank" className="flex text-blue-500 font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 w-[179px] border-solid border-2 border-blue-500 rounded-lg items-center gap-3 justify-center py-2 hover:text-white">
                         <img width={24} src={download} alt='download'/>
                         Resume
                     </a>
